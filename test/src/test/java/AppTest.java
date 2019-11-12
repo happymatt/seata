@@ -47,7 +47,7 @@ public class AppTest {
     public static void main(String[] args) throws Throwable {
         TMClient.init(APPLICATION_ID, TX_SERVICE_GROUP);
         RMClient.init(APPLICATION_ID, TX_SERVICE_GROUP);
-
+        //test
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "basic-test-context.xml");
 
